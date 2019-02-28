@@ -1,2 +1,2 @@
-# sites-receitas-sra-x
-Projeto HTML/CSS/Javascript apresentando ao 
+# Site Receitas Sra X
+Projeto HTML/CSS/Javascript
