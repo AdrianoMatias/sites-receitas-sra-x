@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Receitas Sra. X</title>
+  </head>
+  <body>
+    <div id="cabecalho">
+      <div id="banner">
+        <!--Inserir a figura do banner -->
+      </div>
+      <div id="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cadastrar.html">Cadastrar Receitas</a></li>
+          <li><a href="#">Categorias de Receitas</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+      <div id="links-importantes">
+        <p id="redes-sociais">
+          <img src="img/face.png" alt="">
+          <img src="img/insta.png" alt="">
+          <img src="img/twitter.png" alt="">
+        </p>
+        <p>
+          <input type="search" name="" value="">
+          <input type="image" name="lupa" value="" src="img/lupinha.png" alt="Pesquisar">
+        </p>
+      </div>
+    </div>
+    <div id="corpo">
+        <h1>Nova Receita</h1>
+          <p>
+            <label for="nome">Nome da Receita:
+            <input type="text" name="Nome" id="nome" placeholder="Digite o nome da receita" size="50">
+            </label>
+          </p>
+          <p>
+            <label for="foto">Selecione a foto da receita:
+              <input type="file" name="foto" id="foto">
+            </label>
+          </p>
+          <p>
+            <label for="descricao">Descrição da receita:
+              <textarea id="descricao" name="descricao" placeholder="Digite uma pequena Descrição sobre a receita" rows="10" cols="50"></textarea>
+            </label>
+          </p>
+
+          <p>
+            <fieldset>
+              <legend>Novo Ingrediente</legend>
+              <p>
+                <label for="qtde">Quantidade:
+                  <input type="number" name="qtde" id="qtde" min="1" max="1000">
+                </label>
+              </p>
+              <p>
+                <label for="unidade">Unidade de Medida
+                  <select id="unidade" name="unidade">
+                    <option value="cs">Colher de Sopa</option>
+                    <option value="cc">Colher de Chá</option>
+                    <option value="x">Xícara</option>
+                  </select>
+                </label>
+              </p>
+              <p>
+                <label for="descingrediente">Descrição:
+                  <input type="text" name="descricao" id="descingrediente" size="30" placeholder="Digite o nome do ingrediente">
+                </label>
+              </p>
+              <p>
+                <button type="button" name="button" id="btnadicionar">Adicionar Ingrediente</button>
+              </p>
+            </fieldset>
+
+            <p>
+              <h5>Ingredientes Adcionados</h5>
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      Quantidade
+                    </th>
+                    <th>
+                      Descrição
+                    </th>
+                  </tr>
+                </thead>
+                <tbody id="tbl-ingredientes">
+                  <tr id="ingrediente">
+                    <td id="qtde-ingrediente">
+                    </td>
+                    <td id="desc-ingrediente">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
+
+            <p>
+              <label for="modo-preparo">Modo de Preparo:
+                <textarea id="modo-preparo" name="modo-preparo" placeholder="Digite uma pequena Descrição sobre a receita" rows="10" cols="50"></textarea>
+              </label>
+            </p>
+
+          </p>
+    </div>
+          <div id="ultimas-receitas">
+            <h4>Últimas Adicionadas</h4>
+            <ol>
+              <li>Receita 1</li>
+              <li>Receita 2</li>
+              <li>Receita 3</li>
+              <li>Receita 4</li>
+            </ol>
+          </div>
+      </div>
+    </div>
+    <div id="rodape">
+      <p>Desenvolvido por 1TDSJ - FIAP &copy; 2019</p>
+      <p id="redes-sociais">
+        <img src="img/face.png" alt="">
+        <img src="img/insta.png" alt="">
+        <img src="img/twitter.png" alt="">
+      </p>
+    </div>
+  </body>
+</html>
