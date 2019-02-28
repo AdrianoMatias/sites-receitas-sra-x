@@ -1,2 +1,2 @@
-# sites Receitas Sra X
+# Site Receitas Sra X
 Projeto HTML/CSS/Javascript
